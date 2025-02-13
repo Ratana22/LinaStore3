@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinaStore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/Contact me/style.css"> -->
+    <link rel="icon" href="https://i.ibb.co/LDJh3RTQ/att-Xx-4o-Jy-Ng-WZks-Ljo5fv-BVa-KW-1ru2-BJYq-Ztqdbq7-X4.jpg" a">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes color {
+    0%   { background: #da26d4; }
+    20%  { background: #335ecc; }
+    40%  { background: #cc6f22; }
+    60%  { background: #ff000091; }
+    80%  { background: #307930; }
+    100% { background: #33CCCC; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+header{
+    width: 100%;
+    height: 160px;
+    /* background-color: black; */
+    margin-top: 20px;
+}
+header .box-img{
+    width: 12%;
+    height: 100%;
+    margin: auto;
+    /* background-color: aqua; */
+    border-radius:50%;
+    /* animation: 5s  linear infinite slidein; */
+
+}
+header .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: 5s  linear infinite slidein;
+
+}
+@keyframes slidein {
+    0%,100%{
+        transform: translateY(-1.5rem);
+    }
+    50%{
+        transform: translateY(1rem);
+    }
+
+}
+.box2{
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    margin-top: 30px;
+}
+.box2 .box-txt{
+    width: 30%;
+    height: 100%;
+    margin: auto;  
+    font-family: Noto Serif;
+    color: white;
+
+}
+.box3{
+    width: 50%;
+    height: 600px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    font-family: Noto Serif;
+    color: white;
+}
+.box3 button{
+    width: 60%;
+    height: 50px;
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.box3 button:hover{
+    background-color: rgb(163, 163, 163);
+    color: white;
+}
+.fb{
+    color: blue;
+}
+.tl{
+    color: rgb(46, 110, 248);
+} 
+.yt{
+    color: rgb(255, 0, 0);
+}
+.it{
+    color: rgb(171, 29, 140);
+}
+.ms{
+    color: rgb(187, 43, 187);
+}
+/* Extra larg */
+@media(min-width:1200px){
+
+}
+ /* Large devices (desktops, 992px and up) */
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+
+
+/* Medium device */
+@media(min-width: 768px) and (max-width:991.98px){
+    header .box-img{
+        width: 20%;
+        height: 100%;
+        margin: auto;
+        /* background-color: aqua; */
+        border-radius:50%;
+        text-align: center;
+        
+    }
+    header .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    animation: 5s  linear infinite slidein;
+
+    }
+}
+/*small device*/
+@media(min-width:576px) and (max-width:767.98px){
+    header .box-img{
+        width: 25%;
+        height: 100%;
+        margin: auto;
+        /* background-color: aqua; */
+        border-radius:50%;
+        text-align: center;
+        
+    }
+    header .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    animation: 5s  linear infinite slidein;
+
+    }
+}
+
+/*Extra small device  */
+@media(max-width:575px){
+    header{
+        width: 100%;
+        height: 160px;
+        /* background-color: black; */
+        margin-top: 20px;
+    }
+    @keyframes slidein {
+    0%,100%{
+        transform: translateY(-2.5rem);
+    }
+    50%{
+        transform: translateY(0.3rem);
+    }
+
+}
+    header .box-img{
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        /* background-color: aqua; */
+        border-radius:50%;
+        text-align: center;
+        
+    }
+    header .box-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    animation: 5s  linear infinite slidein;
+
+    }
+    .box2{
+        width: 100%;
+        height: 60px;
+        /* background-color: aquamarine; */
+        margin-top: 30px;
+    }
+    .box2 .box-txt{
+        width: 100%;
+        height: 100%;
+        margin: auto;  
+        font-family: Noto Serif;
+        color: white;
+    
+    }
+    .box3{
+        width: 80%;
+        height: 600px;
+        /* background-color: aquamarine; */
+        margin: auto;
+        font-family: Noto Serif;
+        color: white;
+    }
+    .box3 button{
+        width: 100%;
+        height: 50px;
+        /* margin-left: 100px; */
+        margin-top: 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bolder;
+    
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="snow"></div>
+    <header>
+        <div class="box-img">
+            <h1></h1>
+            <img src="https://i.ibb.co/LDJh3RTQ/att-Xx-4o-Jy-Ng-WZks-Ljo5fv-BVa-KW-1ru2-BJYq-Ztqdbq7-X4.jpg"alt="">
+        </div>
+    </header>
+    <div class="box2">
+        <div class="box-txt">
+            <h1>
+                Welcome To Lina Store 👇🏻
+            </h1>
+        </div>
+    </div>
+    <div class="box3">
+        <a href="https://www.facebook.com/share/16DLERyT2G/?mibextid=wwXIfr">
+            <button>
+                <i class="fa-brands fa-facebook fb"></i>
+                My facebook
+            </button>
+        </a>
+        <a href="https://t.me/lout_lina">
+            <button>
+                <i class="fa-brands fa-telegram tl"></i>
+                My Telegram
+            </button>
+        </a>
+        <a href="https://www.tiktok.com/@ll_store3?_t=ZS-8trLCLyp7j6&_r=1">
+            <button>
+                <i class="fa-brands fa-tiktok tt"></i>
+                My TikTok Ac
+            </button>
+        </a>
+        <a href="https://www.instagram.com/lyna_store3?igsh=NXYwajU5a252dHlv&utm_source=qr">
+            <button>
+                <i class="fa-brands fa-instagram it"></i>
+                My Instagram
+            </button>
+        </a>
+        <a href="m.me/100044521484917?hash=Abab9-LtnRDsx1-K">
+            <!-- <button>
+                <i class="fa-brands fa-facebook-messenger ms"></i>
+                My Messenger
+            </button> -->
+        </a>
+        <h1> Thank You For Support</h1>
+    </div>
+</body>
+</html>
